@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import './styles/inicio.css'
+
 
 import Inicio from "./routes/Inicio";
 import Prevaloracion from "./routes/Prevaloracion";

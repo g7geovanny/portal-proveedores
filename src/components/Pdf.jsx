@@ -1,15 +1,11 @@
 import React from 'react';
 
-
-import PDF from "/miarchivo.pdf";
-
-const PDFComponent = () => {
+const PDFViewer = ({ pdf }) => {
   return (
-    <div className='w-full mt-10 flex justify-center items-center'>
-      {/* Enlace al PDF */}
-      <a className=' bg-slate-800 p-3 text-white' href={PDF} download>Descargar PDF</a>
+    <div>
+      <embed src={pdf} type="application/pdf" width="100%" height="600px" />
     </div>
   );
 };
 
-export default PDFComponent;
+export default PDFViewer;
