@@ -18,10 +18,10 @@ const BotonContador = () => {
   };
 
   // Utiliza useEffect para actualizar el título de la página cuando el contador cambia
-  useEffect(() => {
+  /*useEffect(() => {
     document.title = `Botón clickeado ${contador} veces`;
   }, [contador]);
-
+*/
   return (
     <div>
       <button

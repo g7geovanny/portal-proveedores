@@ -5,6 +5,8 @@ import Carousel from "../components/Carousel";
 
 
 import imagen1 from "../assets/imagen1.jpg";
+import imagen2 from "../assets/imagen2.jpg";
+import imagen3 from "../assets/imagen3.jpg";
 
 
 
@@ -60,14 +62,14 @@ const Inicio = () => {
 
               <div className=' w-96 h-96'>
                 <div className='w-full h-56'>
-                  <img className='w-full h-full object-cover' src={imagen1} alt="fondo" />
+                  <img className='w-full h-full object-cover' src={imagen2} alt="fondo" />
                 </div>
                 <p className='text-center font-bold text-3xl mt-5'>Contactos principales</p>
               </div>
 
               <div className=' w-96 h-96'>
                 <div className='w-full h-56'>
-                  <img className='w-full h-full object-cover' src={imagen1} alt="fondo" />
+                  <img className='w-full h-full object-cover' src={imagen3} alt="fondo" />
                 </div>
                 <p className='text-center font-bold text-3xl mt-5'>Videos interativos</p>
               </div>

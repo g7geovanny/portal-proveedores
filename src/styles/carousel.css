@@ -64,4 +64,11 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
+
+  .sli-3{
+    background-image: url("../assets/factoraje-verde.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   
