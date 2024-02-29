@@ -1,0 +1,17 @@
+.fondo{
+    background-image: url("../assets/fondo.avif");
+    background-size: cover; /* Cubrir todo el espacio disponible sin distorsión */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    width: 100%; /* Ancho del 100% del contenedor principal */
+  height: 100vh; /* Altura del 100% de la ventana visible */
+}
+
+.capa-oscura {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Color negro con 50% de opacidad */
+}
